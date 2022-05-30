@@ -5,16 +5,10 @@ export interface Lib {
 	name: string
 	url: string
 	language: string
-	apiVer: version
-	gwVer: version
-	slashCommands: LinkableString
-	buttons: LinkableString
-	selectMenus: LinkableString
-	threads: LinkableString
-	guildStickers: LinkableString
-	contextMenus: LinkableString
-	autocomplete: LinkableString
-	scheduledEvents: LinkableString
-	timeouts: LinkableString
-	modals: LinkableString
+	loginWithToken: version
+	loginWithEmail: version
+	dynamicIP: LinkableString
+	troopInformation: LinkableString
+	events: LinkableString
+	note: string
 }

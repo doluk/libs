@@ -29,8 +29,8 @@ export default function Home() {
 	return (
 		<div className="container">
 			<Head>
-				<title>Discord API Library Comparisons</title>
-				<meta name="description" content="Compares Discord libraries and their support of new API features" />
+				<title>Clash of Clans API Library Comparisons</title>
+				<meta name="description" content="Compares Clash of Clans libraries and their features" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
 
@@ -47,36 +47,24 @@ export default function Home() {
 							<thead>
 								<tr>
 									<th>Library</th>
-									<th>API Version</th>
-									<th>Gateway Version</th>
-									<th>Slash Commands</th>
-									<th>Buttons</th>
-									<th>Select Menus</th>
-									<th>Threads</th>
-									<th>Guild Stickers</th>
-									<th>Context Menus</th>
-									<th>Autocomplete</th>
-									<th>Scheduled Events</th>
-									<th>Timeouts</th>
-									<th>Modals</th>
+									<th>Login with Token</th>
+									<th>Login with Email</th>
+									<th>Dynamic IP address support</th>
+									<th>Troops/spells/buildings/heroes information</th>
+									<th>Events</th>
+									<th>Note</th>
 								</tr>
 							</thead>
 							<tbody>
 								{libs.filter(lib => lib.language === lang).map(lib => 
 									<tr key={lib.name}>
 										<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
-										{version(lib.apiVer)}
-										{version(lib.gwVer)}
-										{status(lib.slashCommands)}
-										{status(lib.buttons)}
-										{status(lib.selectMenus)}
-										{status(lib.threads)}
-										{status(lib.guildStickers)}
-										{status(lib.contextMenus)}
-										{status(lib.autocomplete)}
-										{status(lib.scheduledEvents)}
-										{status(lib.timeouts)}
-										{status(lib.modals)}
+										{version(lib.loginWithToken)}
+										{version(lib.loginWithEmail)}
+										{status(lib.dynamicIP)}
+										{status(lib.troopInformation)}
+										{status(lib.events)}
+										{status(lib.note)}
 									</tr>
 								)}
 							</tbody>
@@ -86,9 +74,8 @@ export default function Home() {
 			</main>
 
 			<footer className="has-text-centered has-text-white">
-				Created by <a href="https://advaith.io" target="_blank" rel="noopener">advaith</a><br />
-				<a href="https://github.com/advaith1/libs" target="_blank" rel="noopener">Contribute data on GitHub</a><br />
-				Not affiliated with Discord or any library<br />
+				Inspired by <a href="https://github.com/advaith1/libs" target="_blank" rel="noopener">github.com/advaith1/libs</a><br />
+				<a href="https://github.com/doluk/libs" target="_blank" rel="noopener">Contribute data on GitHub</a>
 			</footer>
 
 			<style jsx>{`
