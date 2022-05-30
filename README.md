@@ -1,6 +1,6 @@
-# Discord API Library Comparisons
+# CoC API Library Comparisons
 
-https://libs.advaith.io
+
 
 Compares Discord libraries and their support of new API features. Made with React, Next.js, and Bulma.
 
