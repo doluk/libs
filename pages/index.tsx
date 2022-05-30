@@ -51,6 +51,30 @@ export default function Home() {
 									<th>Login with Email</th>
 									<th>Dynamic IP address support</th>
 									<th>Troops/spells/buildings/heroes information</th>
+									<th>/clans/getClanWarLeagueGroup</th>
+									<th>/clans/getClanWarLeagueWar</th>
+									<th>/clans/getClanWarLog</th>
+									<th>/clans/searchClans</th>
+									<th>/clans/getCurrentWar</th>
+									<th>/clans/getClan</th>
+									<th>/clans/getClanMembers</th>
+									<th>/players/getPlayer</th>
+									<th>/players/verifyToken</th>
+									<th>/leagues/getLeagues</th>
+									<th>/leagues/getLeagueSeasonRankings</th>
+									<th>/leagues/getLeague</th>
+									<th>/leagues/getLeagueSeasons</th>
+									<th>/leagues/getWarLeague</th>
+									<th>/leagues/getWarLeagues</th>
+									<th>/locations/getClanRanking</th>
+									<th>/locations/getPlayerRanking</th>
+									<th>/locations/getClanVersusRanking</th>
+									<th>/locations/getPlayerVersusRanking</th>
+									<th>/locations/getLocations</th>
+									<th>/locations/getLocation</th>
+									<th>/goldpass/getCurrentGoldPassSeason</th>
+									<th>/labels/getPlayerLabels</th>
+									<th>/labels/getClanLabels</th>
 									<th>Events</th>
 									<th>Note</th>
 								</tr>
@@ -59,10 +83,35 @@ export default function Home() {
 								{libs.filter(lib => lib.language === lang).map(lib => 
 									<tr key={lib.name}>
 										<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
-										{version(lib.loginWithToken)}
-										{version(lib.loginWithEmail)}
+										{status(lib.loginWithToken)}
+										{status(lib.loginWithEmail)}
 										{status(lib.dynamicIP)}
 										{status(lib.troopInformation)}
+										{status(lib.clans_CurrentWar_Leaguegroup)}
+										{status(lib.clans_CurrentWar_Leaguegroup)}
+										{status(lib.clans_clannwarleagues_wars)}
+										{status(lib.clans_warlog)}
+										{status(lib.clan_search)}
+										{status(lib.clans_current_war)}
+										{status(lib.clans)}
+										{status(lib.clans_members)}
+										{status(lib.players)}
+										{status(lib.players_verify)}
+										{status(lib.leagues)}
+										{status(lib.leagues_season_ranking)}
+										{status(lib.league_info)}
+										{status(lib.leagues_seasons)}
+										{status(lib.warleague_info)}
+										{status(lib.warleagues)}
+										{status(lib.locations_rankings_clans)}
+										{status(lib.locations_rankings_players)}
+										{status(lib.locations_rankings_clan_versus)}
+										{status(lib.locations_rankings_player_versus)}
+										{status(lib.locations)}
+										{status(lib.location_info)}
+										{status(lib.goldpass)}
+										{status(lib.labels_player)}
+										{status(lib.labels_clan)}
 										{status(lib.events)}
 										{status(lib.note)}
 									</tr>
