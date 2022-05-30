@@ -30,7 +30,7 @@ export const libs: Lib[] = [
 	{
 		name: 'clashofclans.js',
 		url: 'https://github.com/clashperk/clashofclans.js',
-		language: 'JavaScrip',
+		language: 'JavaScript',
 		loginWithToken: 'Yes',
 		loginWithEmail: 'Yes',
 		dynamicIP: 'No',
