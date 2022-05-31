@@ -36,7 +36,7 @@ export default function Home() {
 
 			<main>
 				<h1 id="title" className="title has-text-white mb-6">
-					Discord API Library Comparisons
+					Clash of Clans API Library Comparisons
 				</h1>
 
 				{langs.map(lang => <div key={lang} className="mb-4 fw">
@@ -87,7 +87,6 @@ export default function Home() {
 										{status(lib.loginWithEmail)}
 										{status(lib.dynamicIP)}
 										{status(lib.troopInformation)}
-										{status(lib.clans_CurrentWar_Leaguegroup)}
 										{status(lib.clans_CurrentWar_Leaguegroup)}
 										{status(lib.clans_clannwarleagues_wars)}
 										{status(lib.clans_warlog)}
