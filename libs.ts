@@ -45,7 +45,7 @@ export const libs: Lib[] = [
 		url: 'https://github.com/devhl-labs/CocApi',
 		language: 'Go',
 		loginWithToken: 'Yes',
-		loginWithEmail: 'Yes',
+		loginWithEmail: 'No',
 		dynamicIP: 'No',
 		troopInformation: 'No',
 		events: 'No',
