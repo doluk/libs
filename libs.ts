@@ -42,7 +42,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'coc',
-		url: 'https://github.com/devhl-labs/CocApi',
+		url: 'https://github.com/rbrabson/coc',
 		language: 'Go',
 		loginWithToken: 'Yes',
 		loginWithEmail: 'No',
@@ -77,7 +77,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'coc.go',
-		url: 'https://github.com/devhl-labs/CocApi',
+		url: 'https://github.com/amaanq/coc.go',
 		language: 'Go',
 		loginWithToken: 'No',
 		loginWithEmail: 'Yes',
