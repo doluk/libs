@@ -162,7 +162,7 @@ export const libs: Lib[] = [
 		clans: 'Yes',
 		clans_members: 'Yes',
 		players: 'Yes',
-		players_verify: 'No',
+		players_verify: 'Yes',
 		leagues: 'Yes',
 		leagues_season_ranking: 'Yes',
 		league_info: 'Yes',
