@@ -47,7 +47,7 @@ export const libs: Lib[] = [
 		loginWithToken: 'Yes',
 		loginWithEmail: 'No',
 		dynamicIP: 'No',
-		troopInformation: 'No',
+		troopInformation: 'Yes',
 		events: 'No',
 		clans_CurrentWar_Leaguegroup: 'Yes',
 		clans_clannwarleagues_wars: 'Yes',
