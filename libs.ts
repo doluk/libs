@@ -114,7 +114,7 @@ export const libs: Lib[] = [
 		name: 'clash.js',
 		url: 'https://github.com/ryansyn/clash.js',
 		language: 'JavaScript',
-		loginWithToken: 'No',
+		loginWithToken: 'Yes',
 		loginWithEmail: 'Yes',
 		dynamicIP: 'Yes',
 		troopInformation: 'No',
