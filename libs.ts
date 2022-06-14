@@ -11,7 +11,7 @@ export const libs: Lib[] = [
 		language: 'C#',
 		loginWithToken: 'Yes',
 		loginWithEmail: 'Yes',
-		dynamicIP: 'No',
+		dynamicIP: 'Yes',
 		troopInformation: 'Yes',
 		events: 'Yes',
 		clans_CurrentWar_Leaguegroup: 'Yes',
