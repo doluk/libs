@@ -317,6 +317,6 @@ export const libs: Lib[] = [
 		goldpass: 'Yes',
 		labels_player: 'No',
 		labels_clan: 'No',
-		note: 'unfinished'
+		note: ''
 	}
 ]
