@@ -68,8 +68,8 @@ export default function Home() {
 									<th>/leagues/getWarLeagues</th>
 									<th>/locations/getClanRanking</th>
 									<th>/locations/getPlayerRanking</th>
-									<th>/locations/getClanVersusRanking</th>
-									<th>/locations/getPlayerVersusRanking</th>
+									<th>/locations/getClanBuilderBaseRanking</th>
+									<th>/locations/getPlayerBuilderBaseRanking</th>
 									<th>/locations/getLocations</th>
 									<th>/locations/getLocation</th>
 									<th>/goldpass/getCurrentGoldPassSeason</th>
