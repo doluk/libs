@@ -68,8 +68,8 @@ export default function Home() {
 									<th>/leagues/getWarLeagues</th>
 									<th>/locations/getClanRanking</th>
 									<th>/locations/getPlayerRanking</th>
-									<th>/locations/getClanVersusRanking</th>
-									<th>/locations/getPlayerVersusRanking</th>
+									<th>/locations/getClanBuilderBaseRanking</th>
+									<th>/locations/getPlayerBuilderBaseRanking</th>
 									<th>/locations/getLocations</th>
 									<th>/locations/getLocation</th>
 									<th>/goldpass/getCurrentGoldPassSeason</th>
@@ -104,8 +104,8 @@ export default function Home() {
 										{status(lib.warleagues)}
 										{status(lib.locations_rankings_clans)}
 										{status(lib.locations_rankings_players)}
-										{status(lib.locations_rankings_clan_versus)}
-										{status(lib.locations_rankings_player_versus)}
+										{status(lib.locations_rankings_clan_builderbase)}
+										{status(lib.locations_rankings_player_builderbase)}
 										{status(lib.locations)}
 										{status(lib.location_info)}
 										{status(lib.goldpass)}
