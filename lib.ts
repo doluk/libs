@@ -27,8 +27,8 @@ export interface Lib {
 	warleague_info: string
 	locations_rankings_clans: string
 	locations_rankings_players: string
-	locations_rankings_clan_versus: string
-	locations_rankings_player_versus: string
+	locations_rankings_clan_builderbase: string
+	locations_rankings_player_builderbase: string
 	locations: string
 	location_info: string
 	goldpass: string
