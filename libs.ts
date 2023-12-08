@@ -286,12 +286,12 @@ export const libs: Lib[] = [
 		note: ''
 	},
 	{
-		name: 'ClashApi',
+		name: 'ClashAPI',
 		url: 'https://github.com/Lycoon/clash-api',
 		language: 'JVM',
 		loginWithToken: 'Yes',
-		loginWithEmail: 'Has a PR',
-		dynamicIP: 'Has a PR',
+		loginWithEmail: 'Yes',
+		dynamicIP: 'Yes',
 		troopInformation: 'No',
 		events: 'No',
 		clans_CurrentWar_Leaguegroup: 'Yes',
@@ -316,8 +316,8 @@ export const libs: Lib[] = [
 		locations: 'Yes',
 		location_info: 'Yes',
 		goldpass: 'Yes',
-		labels_player: 'No',
-		labels_clan: 'No',
+		labels_player: 'Yes',
+		labels_clan: 'Yes',
 		note: ''
 	},
 	{
